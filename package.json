@@ -1,0 +1,13 @@
+{
+  "name": "prepack-prepare",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepack": "touch prepack.js",
+    "prepare": "touch prepare.js"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4873/"
+  }
+}
